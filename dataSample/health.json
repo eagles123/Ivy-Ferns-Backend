@@ -1,0 +1,32 @@
+[
+  {
+    "suburbName": "Alfredton",
+    "hospital": 0,
+    "gps": 38,
+    "beds": 300
+  },
+  {
+    "suburbName": "Anakie",
+    "hospital": 1,
+    "gps": 10,
+    "beds": 200
+  },
+  {
+    "suburbName": "Armstrong creek",
+    "hospital": 2,
+    "gps": 30,
+    "beds": 200
+  },
+  {
+    "suburbName": "Avalon",
+    "hospital": 1,
+    "gps": 30,
+    "beds": 100
+  },
+  {
+    "suburbName": "Bakery hill",
+    "hospital": 0,
+    "gps": 30,
+    "beds": 100
+  }
+]

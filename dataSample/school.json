@@ -1,0 +1,37 @@
+[
+  {
+    "suburbName": "Alfredton",
+    "school_name": "Ballarat No.1",
+    "icsea": 350,
+    "lga_average": 500,
+    "ts_ration": 0.8
+  },
+  {
+    "suburbName": "Anakie",
+    "school_name": "Geelong No.1",
+    "icsea": 750,
+    "lga_average": 589,
+    "ts_ration": 1.5
+  },
+  {
+    "suburbName": "Anakie",
+    "school_name": "Geelong No.2",
+    "icsea": 555,
+    "lga_average": 589,
+    "ts_ration": 1
+  },
+  {
+    "suburbName": "Avalon",
+    "school_name": "Geelong No.3",
+    "icsea": 369,
+    "lga_average": 589,
+    "ts_ration": 0.9
+  },
+  {
+    "suburbName": "Bakery hill",
+    "school_name": "Ballarat No.1",
+    "icsea": 800,
+    "lga_average": 500,
+    "ts_ration": 1.9
+  }
+]

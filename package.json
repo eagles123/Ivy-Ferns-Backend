@@ -1,0 +1,29 @@
+{
+  "name": "ivyferns-back-end",
+  "version": "1.0.0",
+  "description": "ivyfern back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Kevin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagles123/Ivy-Ferns-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eagles123/Ivy-Ferns-Backend/issues"
+  },
+  "homepage": "https://github.com/eagles123/Ivy-Ferns-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.1"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "suburbName": "Alfredton",
+    "healthScore": 28.7628405538,
+    "educationScore": 7.3366808473,
+    "propetyScore": 39.3873085339,
+    "jobScore": 30.0881517097
+  },
+  {
+    "suburbName": "Anakie",
+    "healthScore": 0.0,
+    "educationScore": 2.1811010568,
+    "propetyScore": 0.0,
+    "jobScore": 0.0
+  },
+  {
+    "suburbName": "Armstrong creek",
+    "healthScore": 0.0,
+    "educationScore": 9.5064451341,
+    "propetyScore": 48.1400437637,
+    "jobScore": 23.1257482833
+  },
+  {
+    "suburbName": "Avalon",
+    "healthScore": 0.0,
+    "educationScore": 0.0,
+    "propetyScore": 0.0,
+    "jobScore": 0.0
+  },
+  {
+    "suburbName": "Bakery hill",
+    "healthScore": 6.2527914247,
+    "educationScore": 0.0,
+    "propetyScore": 0.0,
+    "jobScore": 0.0
+  }
+]

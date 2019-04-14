@@ -1,0 +1,32 @@
+[
+  {
+    "suburbName": "Alfredton",
+    "pre_school": 1,
+    "primary_school": 3,
+    "secondary_school": 2
+  },
+  {
+    "suburbName": "Anakie",
+    "pre_school": 3,
+    "primary_school": 3,
+    "secondary_school": 3
+  },
+  {
+    "suburbName": "Armstrong creek",
+    "pre_school": 3,
+    "primary_school": 3,
+    "secondary_school": 1
+  },
+  {
+    "suburbName": "Avalon",
+    "pre_school": 2,
+    "primary_school": 3,
+    "secondary_school": 1
+  },
+  {
+    "suburbName": "Bakery hill",
+    "pre_school": 2,
+    "primary_school": 3,
+    "secondary_school": 1
+  }
+]
