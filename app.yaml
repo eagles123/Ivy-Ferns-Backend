@@ -1,6 +1,0 @@
-runtime: nodejs
-env: flex
-
-env_variables:
-  MONGO_USER: "ivyferns"
-  MONGO_PASSWORD: "17945910"
