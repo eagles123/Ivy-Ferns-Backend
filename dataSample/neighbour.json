@@ -1,0 +1,15 @@
+[
+  {
+    "suburbName": "Anakie",
+    "neighbour": ["Armstrong creek", "Avalon"]
+  },
+
+  {
+    "suburbName": "Armstrong creek",
+    "neighbour": ["Avalon", "Anakie"]
+  },
+  {
+    "suburbName": "Avalon",
+    "neighbour": ["Anakie", "Armstrong creek"]
+  }
+]

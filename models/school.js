@@ -8,7 +8,10 @@ const schoolSchema = new Schema(
     school_name: String,
     icsea: Number,
     lga_average: Number,
-    ts_ration: Number
+    ts_ration: Number,
+    enrollment: Number,
+    longitude: Number,
+    latitude: Number
   },
   { collacollectiontion: "schools" }
 );

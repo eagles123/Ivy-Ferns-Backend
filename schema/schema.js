@@ -7,6 +7,8 @@ const Education = require("../models/education");
 const Property = require("../models/property");
 const Job = require("../models/job");
 const School = require("../models/school");
+const Neighbour = require("../models/neighbour");
+const Hospital = require("../models/hospitals");
 const {
   GraphQLObjectType,
   GraphQLString,
@@ -49,6 +51,18 @@ const SuburbType = new GraphQLObjectType({
         return School.find({ suburbName: parent.suburbName });
       }
     },
+    neighbours: {
+      type: new GraphQLList(NeighbourType),
+      resolve(parent, arg) {
+        return Neighbour.find({ suburbName: parent.suburbName });
+      }
+    },
+    hosptials: {
+      type: new GraphQLList(HospitalType),
+      resolve(parent, arg) {
+        return Hospital.find({ suburbName: parent.suburbName });
+      }
+    },
     property: {
       type: PropertyType,
       resolve(parent, arg) {
@@ -61,6 +75,15 @@ const SuburbType = new GraphQLObjectType({
         return Job.findOne({ suburbName: parent.suburbName });
       }
     }
+  })
+});
+
+const NeighbourType = new GraphQLObjectType({
+  name: "Neighbour",
+  fields: () => ({
+    _id: { type: GraphQLID },
+    suburbName: { type: GraphQLString },
+    neighbour_name: { type: new GraphQLList(GraphQLString) }
   })
 });
 
@@ -115,9 +138,25 @@ const SchoolType = new GraphQLObjectType({
     school_name: { type: GraphQLString },
     icsea: { type: GraphQLInt },
     lga_average: { type: GraphQLInt },
-    ts_ration: { type: GraphQLFloat }
+    ts_ration: { type: GraphQLFloat },
+    enrollment: { type: GraphQLInt },
+    longitude: { type: GraphQLFloat },
+    latitude: { type: GraphQLFloat }
   })
 });
+
+const HospitalType = new GraphQLObjectType({
+  name: "Hospital",
+  fields: () => ({
+    _id: { type: GraphQLID },
+    suburbName: { type: GraphQLString },
+    hospital_name: { type: GraphQLString },
+    beds: { type: GraphQLInt },
+    longitude: { type: GraphQLFloat },
+    latitude: { type: GraphQLFloat }
+  })
+});
+
 const JobType = new GraphQLObjectType({
   name: "Job",
   fields: () => ({
@@ -153,6 +192,13 @@ const RootQuery = new GraphQLObjectType({
       resolve(parent, args) {
         // return _.find(suburbs, { name: args.name });
         return Suburb.findById(args.id);
+      }
+    },
+    suburbByName: {
+      type: SuburbType,
+      args: { suburbName: { type: GraphQLString } },
+      resolve(parent, args) {
+        return Rating.findOne({ suburbName: args.suburbName });
       }
     },
     rating: {
@@ -234,7 +280,7 @@ const Mutation = new GraphQLObjectType({
       type: PropertyType,
       args: {
         suburbName: { type: GraphQLString },
-        price: { type: GraphQLFloat }
+        price: { type: GraphQLInt }
       },
       resolve(parent, args) {
         let property = new Property({

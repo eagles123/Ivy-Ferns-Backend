@@ -4,34 +4,49 @@
     "school_name": "Ballarat No.1",
     "icsea": 350,
     "lga_average": 500,
-    "ts_ration": 0.8
+    "ts_ration": 0.8,
+    "enrolments": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
   },
   {
     "suburbName": "Anakie",
     "school_name": "Geelong No.1",
     "icsea": 750,
     "lga_average": 589,
-    "ts_ration": 1.5
+    "ts_ration": 1.5,
+    "enrolments": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
   },
   {
     "suburbName": "Anakie",
     "school_name": "Geelong No.2",
     "icsea": 555,
     "lga_average": 589,
-    "ts_ration": 1
+    "ts_ration": 1,
+    "enrolments": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
   },
   {
     "suburbName": "Avalon",
     "school_name": "Geelong No.3",
     "icsea": 369,
     "lga_average": 589,
-    "ts_ration": 0.9
+    "ts_ration": 0.9,
+    "enrolments": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
   },
   {
     "suburbName": "Bakery hill",
     "school_name": "Ballarat No.1",
     "icsea": 800,
     "lga_average": 500,
-    "ts_ration": 1.9
+    "ts_ration": 1.9,
+    "enrolments": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
   }
 ]

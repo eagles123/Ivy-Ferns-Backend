@@ -1,0 +1,23 @@
+[
+  {
+    "suburbName": "Alfredton",
+    "hospital_name": "Whatever Hospital",
+    "beds": 200,
+    "longitude": 12.35,
+    "latitude": -18.23
+  },
+  {
+    "suburbName": "Avalon",
+    "hospital_name": "Some Hospital",
+    "beds": 50,
+    "longitude": 12.55,
+    "latitude": -18.23
+  },
+  {
+    "suburbName": "Avalon",
+    "hospital_name": "Hospital Again",
+    "beds": 70,
+    "longitude": 12.75,
+    "latitude": -18.83
+  }
+]
